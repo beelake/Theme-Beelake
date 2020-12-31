@@ -1,0 +1,15 @@
+<header class="header">
+  <div class="blog-title">
+    <a href="<%- url_for() %>" class="logo"><%= theme.Info.Author %></a>
+  </div>
+  <nav class="navbar">
+    <ul class="menu">
+      <% for (ca in theme.Menu) { %>
+        <li class="menu-item">
+          <a href="<%- url_for(theme.Menu[ca].Link) %>" class="menu-item-link"><%- __(theme.Menu[ca].Name) %> </a>
+        </li>
+      <% } %>  
+    </ul>
+  </nav>
+
+</header>

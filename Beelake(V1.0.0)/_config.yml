@@ -1,0 +1,28 @@
+Info: 
+  Title: Beelake
+  Favicon: https://cdn.jsdelivr.net/gh/doflake/Picture/Favicon/1.jpg
+  Author: Beelake
+
+Menu:
+  Home: 
+    Name: 主页
+    Link: /
+  Archives: 
+    Name: 归档
+    Link: /archives
+  Hexo: 
+    Name: Hexo专题
+    Link: /Hexo
+  Github: 
+    Name: Github
+    Link: https://github.com/beelake/Theme-Beelake
+  FunnyBaidu:
+    Name: 度娘
+    Link: /Funny-Baidu
+
+Background:
+  Link: https://cdn.jsdelivr.net/gh/beelake/Picture/Background/2.jpg
+  Layout:
+    Repeat: no-repeat
+    Attachment: fixed
+    Size: 100% 100%

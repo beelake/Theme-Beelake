@@ -1,0 +1,10 @@
+$Background_Link = hexo-config("Background.Link")
+$Background_Repeat = convert(hexo-config("Background.Layout.Repeat"))
+$Background_Attachment = convert(hexo-config("Background.Layout.Attachment"))
+$Background_Size = convert(hexo-config("Background.Layout.Size"))
+body {
+    Background-image: url($Background_Link);
+    Background-Repeat: $Background_Repeat;
+    Background-Attachment: $Background_Attachment;
+    Background-Size: $Background_Size;
+}
